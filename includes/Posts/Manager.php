@@ -264,9 +264,6 @@ class Manager {
                 return;
             }
             
-            //$page_access_token = 'EAAMnZCGbtbEkBAAYIAg9XypryZA2sV69aF7RPef0w8nM0NSWdeWHbabFVDYnvBzKUh2kdvpAeAFTPyO5FZC42Bc9zAJZCdY8gE4ZADRXsAgvCGMQovKToHbvU3lJzXCdMZCZCJZChjLyCTc6cTI0lAfH9emawUVw5kY7lhgbUGOc2agHGCr5GHRV';
-            //$page_id = '278979152584771';    
-         
             $body = [];
             $body['message'] = $data['description'];
             $body['caption'] = $data['title'];
